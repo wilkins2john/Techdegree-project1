@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #efeff2;
 }
 /* Link Styles */
 
@@ -57,7 +57,9 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/fayetteville.jpg') no-repeat center ;
+  background: linear-gradient(#009688, transparent 50%),
+              linear-gradient()
+              url('images/fayetteville.jpg') no-repeat center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -70,22 +72,22 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid blue;
+  border: 3px solid rgba(299, 299, 299, 0.3);
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color:rgba(299, 299, 299, 0.3);
+  color: #222);
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
+  background-color: rgba(34, 34, 34, 0.9);
   color: yellow;
 }
 .card {
