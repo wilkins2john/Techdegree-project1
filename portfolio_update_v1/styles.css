@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #efeff2;
+  background: #ccc;
 }
 /* Link Styles */
 
@@ -52,13 +52,13 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: white;
 }
 
 header {
   text-align: center;
-  background: linear-gradient(#009688, transparent 50%),
-              linear-gradient()
+  background: linear-gradient(#009688, transparent 40%),
+              linear-gradient(0deg, #efeff2, transparent 10%),
               url('images/fayetteville.jpg') no-repeat center ;
   background-size: cover;
   overflow: hidden;
@@ -79,11 +79,12 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color:rgba(299, 299, 299, 0.3);
+  background-color: rgba(299, 299, 299, 0.3);
   color: #222);
   padding: 10px;
   border-radius: 5px;
   display: table;
+  height: 10px;
   margin: 10px auto;
 } 
 .location {
@@ -101,7 +102,11 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #009688;
+}
+
+h2 {
+  text-align: center;
 }
 
 ul.skills {
